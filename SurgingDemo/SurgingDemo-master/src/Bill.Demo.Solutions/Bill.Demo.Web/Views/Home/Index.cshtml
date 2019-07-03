@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<p>
+    <b>UserName:</b><br />
+    @ViewBag.UserName
+</p>
+
+<div>
+    <button id="btnTestLoop10000">测试循环 1w 次调用</button>
+    <p id="content"></p>
+</div>
+
+<div>
+    <button id="btnRabbitMq">发布User事件</button>
+    <p id="mqContent"></p>
+</div>
+
+@*<script src="~/js/jquery.js"></script>*@
+
+@section Scripts{
+    <script type="text/javascript">
+        $(function ($) {
+            $("#btnTestLoop10000").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Content("~/home/TestLoop10000")',
+                    success: function (msg) {
+                        $("#content").append(msg +"<br />");
+                    }
+                });
+            });
+
+            $('#btnRabbitMq').click(function(){
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Content("~/home/TestRabbitMq")',
+                    success: function (msg) {
+                        $("#mqContent").append(msg +"<br />");
+                    }
+                });
+            });
+        
+
+        });
+    </script>
+    }
