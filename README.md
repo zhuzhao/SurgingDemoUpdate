@@ -27,6 +27,7 @@ https://github.com/billyang/SurgingDemo    更新Update
 
 
 
-打开  这个 SurgingDemo\SurgingDemo-master\src\Bill.Demo.Solutions，还原包    看这篇文章
-  https://www.jianshu.com/p/6324626c87b7?tdsourcetag=s_pctim_aiomsg
- 设置三个启动项Surging.ApiGateway，Bill.Demo.Services.Server，Bill.Demo.Web
+5、打开  这个 SurgingDemo\SurgingDemo-master\src\Bill.Demo.Solutions，还原包  
+   看这篇文章 https://www.jianshu.com/p/6324626c87b7?tdsourcetag=s_pctim_aiomsg
+   设置三个启动项Surging.ApiGateway，Bill.Demo.Services.Server，Bill.Demo.Web
+   
