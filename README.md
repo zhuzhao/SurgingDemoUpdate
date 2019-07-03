@@ -2,7 +2,9 @@
 https://github.com/billyang/SurgingDemo    更新Update
 
 
-让surging 微服务框  demo 跑起来的准备工作     看这个文章  https://www.cnblogs.com/alangur/p/8339905.html
+让surging 微服务框  demo 跑起来的准备工作     
+看这个文章  https://www.cnblogs.com/alangur/p/8339905.html
+
 1、下载 安装 erlang：https://www.erlang.org/  最新版就可以  
 
 
