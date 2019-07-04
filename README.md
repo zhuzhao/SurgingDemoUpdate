@@ -1,5 +1,5 @@
 # SurgingDemoUpdate
-https://github.com/billyang/SurgingDemo    更新Update
+https://github.com/billyang/SurgingDemo    我把原来的demo 更新Update，升级到.net core 2.2，可以跑起来，没有错误。
 
 
 让surging 微服务框  demo 跑起来的准备工作     
