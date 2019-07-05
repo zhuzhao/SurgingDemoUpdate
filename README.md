@@ -16,7 +16,8 @@ https://github.com/billyang/SurgingDemo    我把原来的demo 更新Update，�
 
 　 重启rabbitmq服务生效
 
-　 打开http://localhost:15672/即可看到管理后台 （默认的用户名跟密码均是guest，guest不能用于远程访问）
+　 打开http://localhost:15672/     
+   即可看到管理后台 （默认的用户名跟密码均是guest，guest不能用于远程访问）
 
 
 3、下载 consul    地址：https://www.consul.io/downloads.html     
